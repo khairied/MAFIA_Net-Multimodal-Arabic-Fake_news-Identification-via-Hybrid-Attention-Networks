@@ -13,7 +13,7 @@ The accompanying notebook demonstrates how to load the dataset, conduct ablation
 The dataset is released as CSV files with the following structure:
 
 - `id` – Twitter Tweet ID  
-- `label` – Class label (`1` = Fake, `0` = Real)  
+- `label` – Class label (`0` = Fake, `1` = Real)  
 - `dataset` – Source dataset name  
 
 ✔️ Only Tweet IDs are shared to fully comply with Twitter/X data-sharing policies.
