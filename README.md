@@ -26,10 +26,32 @@ The dataset is released as CSV files with the following structure:
 - Labels were inherited from **existing Arabic unimodal annotated datasets**, enabling scalable multimodal annotation with minimal manual effort.
 - Text and media content can be programmatically retrieved using the provided tweet IDs.
 
+## 📝 Linguistic Statistics
+| Class     | Tweets   | Total Words | Unique Words | Avg. Words / Tweet |
+| --------- | -------- | ----------- | ------------ | ------------------ |
+| Real      | 3777     | 71,548      | 19,694       | 18.94              |
+| Fake      | 1361     | 30,474      | 10,158       | 22.39              |
+| **Total** | **5138** | **102,022** | **25,431**   | **19.86**          |
+
+## 📊 Dataset Statistics
+🔹 Distribution of Multimodal Tweets per Source Dataset
+
+| Dataset    | # Real           | # Fake           | Total (%)       |
+| ---------- | ---------------- | ---------------- | --------------- |
+| ArCOV-19   | 265              | 339              | 604 (11.8%)     |
+| Covid3s400 | 287              | 28               | 315 (6.1%)      |
+| FakeReal   | 686              | 200              | 886 (17.2%)     |
+| MFH        | 176              | 144              | 320 (6.2%)      |
+| NewID      | 216              | 167              | 383 (7.5%)      |
+| Covid5K700 | 505              | 190              | 695 (13.5%)     |
+| Rumor      | 1642             | 293              | 1935 (37.7%)    |
+| **Total**  | **3777 (73.5%)** | **1361 (26.5%)** | **5138 (100%)** |
+
+
 ---
 
 ## 🧪 Notebook (Ablation Study)
-The provided notebook (`arabic_fake_news_demo.ipynb`) includes the following experimental settings:
+The provided notebook ('MAFIA_Net_Ablation_Study.ipynb','Text Encoder Only.ipynb','Image Encoder only.ipynb') includes the following experimental settings:
 
 - 📝 **Text Encoder Only**
 - 🖼️ **Image Encoder Only**
