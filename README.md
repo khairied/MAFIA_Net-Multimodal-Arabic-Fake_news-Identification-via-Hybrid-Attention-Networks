@@ -10,7 +10,7 @@ The accompanying notebook demonstrates how to load the dataset, conduct ablation
 ---
 
 ## 📂 Dataset Format
-The dataset is released as CSV files with the following structure:
+The dataset is released as "MafiaNetDataset.csv" with the following structure:
 
 - `id` – Twitter Tweet ID  
 - `label` – Class label (`0` = Fake, `1` = Real)  
