@@ -52,7 +52,8 @@ The dataset is released as "MafiaNetDataset.csv" with the following structure:
 
 ## 🧪 Notebook (Ablation Study)
 The provided notebook includes the following experimental settings:
-- 📝 **Text Encoder Only** Text Encoder Only.ipynb
+- 📌 **Data Collection** Hydrate_TweetIDs.ipynb
+- 📝 **Text Encoder Only** CNN Image Encoder Only.ipynb and Vision Encoder Only.ipynb   Hydrate_TweetIDs.ipynb
 - 🖼️ **Image Encoder Only** Image Encoder only.ipynb
 - ❌ **MAFIA-Net without MARBERTv2** Without Marbert.ipynb
 - ❌ **MAFIA-Net without EfficientNet-B1** Without efficientnetb1.ipynb
