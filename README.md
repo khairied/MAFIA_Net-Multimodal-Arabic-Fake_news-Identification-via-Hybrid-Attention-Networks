@@ -69,7 +69,7 @@ These experiments highlight the contribution of each module to multimodal fake n
 Due to Twitter/X content redistribution policies, the **full hydrated dataset** is not publicly released.
 
 📩 To request access, please fill out the following Google Form:  
-👉 https://docs.google.com/forms/d/1RAmKljzO_0poMIDWBeHqbJchwi_RfAyMvlasbwY46E4/edit
+👉 https://docs.google.com/forms/d/e/1FAIpQLSeWfr5fZabuHe_jJBA7jd4QxZ5vM9S_QDA0nEf1VQLVb8RcGg/viewform?usp=header
 
 Requests are intended for **research and academic use only**.
 
